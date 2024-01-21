@@ -1,0 +1,14 @@
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:30:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Time[m[K’
+   30 |   : Node("minimal_publisher"), count_(this->now()[01;31m[K->[m[KTime)
+      |                                                  [01;31m[K^~[m[K
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:16:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Time[m[K’
+   16 |   : Node("minimal_publisher"), count_(this->now()[01;31m[K->[m[KTime)
+      |                                                  [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

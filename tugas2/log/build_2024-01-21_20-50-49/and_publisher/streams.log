@@ -1,0 +1,23 @@
+[0.125s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[0.190s] [35m[1mScanning dependencies of target talker1[0m
+[0.215s] [ 33%] Built target talker2
+[0.220s] [ 83%] Built target listener
+[0.221s] [ 83%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m
+[1.590s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.590s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::count[m[K’?
+[1.590s]    28 |     [01;31m[Kcount[m[K+=2;
+[1.590s]       |     [01;31m[K^~~~~[m[K
+[1.590s]       |     [32m[Kstd::count[m[K
+[1.590s] In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+[1.591s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[1.591s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.591s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.591s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.591s]                  from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:4[m[K:
+[1.591s] [01m[K/usr/include/c++/9/bits/stl_algo.h:4113:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::count[m[K’ declared here
+[1.591s]  4113 |     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[1.591s]       |     [01;36m[K^~~~~[m[K
+[2.368s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+[2.368s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[2.368s] make: *** [Makefile:141: all] Error 2
+[2.373s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16

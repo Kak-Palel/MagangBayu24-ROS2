@@ -1,0 +1,16 @@
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:30:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} in initialization
+   30 |   : Node("minimal_publisher"), count_([01;31m[Kthis->now()[m[K)
+      |                                       [01;31m[K~~~~~~~~~^~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Krclcpp::Time[m[K
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:16:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Node::now[m[K’ from type ‘[01m[Krclcpp::Time (rclcpp::Node::)() const[m[K’ to type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   16 |   : Node("minimal_publisher"), count_(this->now[01;31m[K)[m[K
+      |                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

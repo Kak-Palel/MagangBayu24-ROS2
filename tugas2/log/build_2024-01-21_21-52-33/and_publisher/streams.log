@@ -1,0 +1,130 @@
+[0.112s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[0.161s] [35m[1mScanning dependencies of target listener[0m
+[0.172s] [ 33%] Built target talker1
+[0.173s] [ 66%] Built target talker2
+[0.188s] [ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_main.cpp.o[0m
+[1.215s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.215s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:39:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::assign(std::string*) const[m[K’
+[1.215s]    39 |     if(received[10] == '1') {pub1.assign(&received[01;31m[K)[m[K;}
+[1.216s]       |                                                   [01;31m[K^[m[K
+[1.216s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.216s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.216s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.216s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.216s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.216s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.216s]                  from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15[m[K:
+[1.216s] [01m[K/usr/include/c++/9/bits/basic_string.h:1368:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.216s]  1368 |       [01;36m[Kassign[m[K(const basic_string& __str)
+[1.216s]       |       [01;36m[K^~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/9/bits/basic_string.h:1368:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.216s]  1368 |       assign([01;36m[Kconst basic_string& __str[m[K)
+[1.217s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/9/bits/basic_string.h:1384:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.217s]  1384 |       [01;36m[Kassign[m[K(basic_string&& __str)
+[1.217s]       |       [01;36m[K^~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/9/bits/basic_string.h:1384:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.217s]  1384 |       assign([01;36m[Kbasic_string&& __str[m[K)
+[1.217s]       |              [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/9/bits/basic_string.h:1407:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.217s]  1407 |       [01;36m[Kassign[m[K(const basic_string& __str, size_type __pos, size_type __n = npos)
+[1.217s]       |       [01;36m[K^~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/9/bits/basic_string.h:1407:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.217s] [01m[K/usr/include/c++/9/bits/basic_string.h:1423:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.218s]  1423 |       [01;36m[Kassign[m[K(const _CharT* __s, size_type __n)
+[1.218s]       |       [01;36m[K^~~~~~[m[K
+[1.218s] [01m[K/usr/include/c++/9/bits/basic_string.h:1423:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.218s] [01m[K/usr/include/c++/9/bits/basic_string.h:1439:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.218s]  1439 |       [01;36m[Kassign[m[K(const _CharT* __s)
+[1.218s]       |       [01;36m[K^~~~~~[m[K
+[1.218s] [01m[K/usr/include/c++/9/bits/basic_string.h:1439:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.218s]  1439 |       assign([01;36m[Kconst _CharT* __s[m[K)
+[1.218s]       |              [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.218s] [01m[K/usr/include/c++/9/bits/basic_string.h:1456:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.218s]  1456 |       [01;36m[Kassign[m[K(size_type __n, _CharT __c)
+[1.218s]       |       [01;36m[K^~~~~~[m[K
+[1.218s] [01m[K/usr/include/c++/9/bits/basic_string.h:1456:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.219s] [01m[K/usr/include/c++/9/bits/basic_string.h:1474:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.219s]  1474 |         [01;36m[Kassign[m[K(_InputIterator __first, _InputIterator __last)
+[1.219s]       |         [01;36m[K^~~~~~[m[K
+[1.219s] [01m[K/usr/include/c++/9/bits/basic_string.h:1474:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.219s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:39:51:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.219s]    39 |     if(received[10] == '1') {pub1.assign(&received[01;36m[K)[m[K;}
+[1.219s]       |                                                   [01;36m[K^[m[K
+[1.219s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.219s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.219s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.219s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.219s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.219s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.220s]                  from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15[m[K:
+[1.220s] [01m[K/usr/include/c++/9/bits/basic_string.h:1484:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.220s]  1484 |       [01;36m[Kassign[m[K(initializer_list<_CharT> __l)
+[1.220s]       |       [01;36m[K^~~~~~[m[K
+[1.220s] [01m[K/usr/include/c++/9/bits/basic_string.h:1484:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.220s]  1484 |       assign([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.220s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.220s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:40:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::assign(std::string*) const[m[K’
+[1.220s]    40 |     else if(received[10] == '2') {pub2.assign(&received[01;31m[K)[m[K;}
+[1.220s]       |                                                        [01;31m[K^[m[K
+[1.220s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.220s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.220s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.221s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.221s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.221s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.221s]                  from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15[m[K:
+[1.221s] [01m[K/usr/include/c++/9/bits/basic_string.h:1368:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.221s]  1368 |       [01;36m[Kassign[m[K(const basic_string& __str)
+[1.221s]       |       [01;36m[K^~~~~~[m[K
+[1.221s] [01m[K/usr/include/c++/9/bits/basic_string.h:1368:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.221s]  1368 |       assign([01;36m[Kconst basic_string& __str[m[K)
+[1.221s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.221s] [01m[K/usr/include/c++/9/bits/basic_string.h:1384:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.221s]  1384 |       [01;36m[Kassign[m[K(basic_string&& __str)
+[1.222s]       |       [01;36m[K^~~~~~[m[K
+[1.222s] [01m[K/usr/include/c++/9/bits/basic_string.h:1384:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.222s]  1384 |       assign([01;36m[Kbasic_string&& __str[m[K)
+[1.222s]       |              [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.222s] [01m[K/usr/include/c++/9/bits/basic_string.h:1407:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.222s]  1407 |       [01;36m[Kassign[m[K(const basic_string& __str, size_type __pos, size_type __n = npos)
+[1.222s]       |       [01;36m[K^~~~~~[m[K
+[1.222s] [01m[K/usr/include/c++/9/bits/basic_string.h:1407:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.222s] [01m[K/usr/include/c++/9/bits/basic_string.h:1423:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.222s]  1423 |       [01;36m[Kassign[m[K(const _CharT* __s, size_type __n)
+[1.222s]       |       [01;36m[K^~~~~~[m[K
+[1.222s] [01m[K/usr/include/c++/9/bits/basic_string.h:1423:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1439:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.223s]  1439 |       [01;36m[Kassign[m[K(const _CharT* __s)
+[1.223s]       |       [01;36m[K^~~~~~[m[K
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1439:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.223s]  1439 |       assign([01;36m[Kconst _CharT* __s[m[K)
+[1.223s]       |              [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1456:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int][m[K’
+[1.223s]  1456 |       [01;36m[Kassign[m[K(size_type __n, _CharT __c)
+[1.223s]       |       [01;36m[K^~~~~~[m[K
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1456:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1474:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.223s]  1474 |         [01;36m[Kassign[m[K(_InputIterator __first, _InputIterator __last)
+[1.223s]       |         [01;36m[K^~~~~~[m[K
+[1.223s] [01m[K/usr/include/c++/9/bits/basic_string.h:1474:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.224s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:40:56:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.224s]    40 |     else if(received[10] == '2') {pub2.assign(&received[01;36m[K)[m[K;}
+[1.224s]       |                                                        [01;36m[K^[m[K
+[1.224s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.224s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.224s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.224s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.224s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.224s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.224s]                  from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15[m[K:
+[1.224s] [01m[K/usr/include/c++/9/bits/basic_string.h:1484:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::assign(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.224s]  1484 |       [01;36m[Kassign[m[K(initializer_list<_CharT> __l)
+[1.224s]       |       [01;36m[K^~~~~~[m[K
+[1.225s] [01m[K/usr/include/c++/9/bits/basic_string.h:1484:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string*[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.225s]  1484 |       assign([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.225s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.452s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_main.cpp.o] Error 1
+[2.452s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[2.452s] make: *** [Makefile:141: all] Error 2
+[2.454s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16

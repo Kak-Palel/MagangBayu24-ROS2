@@ -1,0 +1,11 @@
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/install/strip.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/install/local.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/install.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/list_install_components.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/rebuild_cache.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/edit_cache.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/test.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/pengerjaSoal.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/pembuatSoal.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/mat_random_uninstall.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random/CMakeFiles/uninstall.dir

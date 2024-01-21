@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 33%] Built target talker1
+[ 83%] Built target talker2
+[ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_main.cpp.o[0m
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:38:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::__cxx11::basic_string<char>[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kstr[m[K’
+   38 |     std::string received = msg->data.[01;31m[Kstr[m[K();
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:39:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::__cxx11::basic_string<char>[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kstr[m[K’
+   39 |     if(received[10] == '1') {pub1 = msg->data.[01;31m[Kstr[m[K();}
+      |                                               [01;31m[K^~~[m[K
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:40:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::__cxx11::basic_string<char>[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kstr[m[K’
+   40 |     else if(received[10] == '2') {pub2 = msg->data.[01;31m[Kstr[m[K();}
+      |                                                    [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

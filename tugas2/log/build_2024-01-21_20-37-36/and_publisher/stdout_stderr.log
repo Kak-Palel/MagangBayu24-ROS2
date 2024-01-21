@@ -1,0 +1,42 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher
+[35m[1mScanning dependencies of target talker1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher2.cpp.o[0m
+[ 50%] Built target listener
+[ 66%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktime.hpp: No such file or directory
+    6 | #include [01;31m[K"time.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher2.cpp:30:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} in initialization
+   30 |   : Node("minimal_publisher"), count_([01;31m[Kthis->now()[m[K)
+      |                                       [01;31m[K~~~~~~~~~^~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Krclcpp::Time[m[K
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

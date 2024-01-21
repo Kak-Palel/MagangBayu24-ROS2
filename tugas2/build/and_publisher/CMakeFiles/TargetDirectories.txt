@@ -1,0 +1,12 @@
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/install/strip.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/edit_cache.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/test.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/install.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/list_install_components.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/rebuild_cache.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/listener.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/talker2.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/install/local.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/talker1.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/and_publisher_uninstall.dir
+/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher/CMakeFiles/uninstall.dir

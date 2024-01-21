@@ -1,0 +1,30 @@
+[0.099s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[0.142s] [35m[1mScanning dependencies of target talker2[0m
+[0.157s] [ 33%] Built target talker1
+[0.166s] [ 66%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher2.cpp.o[0m
+[0.166s] [ 83%] Built target listener
+[2.721s] [100%] [32m[1mLinking CXX executable talker2[0m
+[2.863s] [100%] Built target talker2
+[2.874s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[2.915s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher
+[2.925s] -- Install configuration: ""
+[2.925s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker1
+[2.925s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2
+[2.926s] -- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2" to ""
+[2.926s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/listener
+[2.926s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/package_run_dependencies/and_publisher
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/parent_prefix_path/and_publisher
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.sh
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.dsv
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.sh
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.dsv
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.bash
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.sh
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.zsh
+[2.927s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.dsv
+[2.928s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.dsv
+[2.928s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/packages/and_publisher
+[2.928s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig.cmake
+[2.929s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig-version.cmake
+[2.929s] -- Up-to-date: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.xml
+[2.930s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher

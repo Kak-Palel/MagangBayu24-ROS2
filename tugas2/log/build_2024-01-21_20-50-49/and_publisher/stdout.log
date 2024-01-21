@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target talker1[0m
+[ 33%] Built target talker2
+[ 83%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m

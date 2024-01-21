@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (and_publisher) JobQueued: {'identifier': 'and_publisher', 'dependencies': OrderedDict()}
+[0.000307] (and_publisher) JobStarted: {'identifier': 'and_publisher'}
+[0.089950] (and_publisher) JobProgress: {'identifier': 'and_publisher', 'progress': 'cmake'}
+[0.090532] (and_publisher) JobProgress: {'identifier': 'and_publisher', 'progress': 'build'}
+[0.091393] (and_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', '--', '-j16', '-l16'], 'cwd': '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olel'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/olel/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2507'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/olel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/149/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/olel/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/149/usr/share/code/code'), ('MANAGERPID', '2154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'olel'), ('JOURNAL_STREAM', '8:55349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'olel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/olel-ROG-Flow-X16-GV601RE-GV601RE:@/tmp/.ICE-unix/2597,unix/olel-ROG-Flow-X16-GV601RE-GV601RE:/tmp/.ICE-unix/2597'), ('GTK_EXE_PREFIX', '/snap/code/149/usr'), ('INVOCATION_ID', 'c7fb7a9047ac4c29863a2f4193ecd836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8b4040f_9c5b_4657_9c99_07c249b48ce3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/149/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ed57e23a5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1235'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/olel/snap/code/149/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/olel/snap/code/149/.local/share:/home/olel/snap/code/149:/snap/code/149/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099436] (-) TimerEvent: {}
+[0.140321] (and_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.158211] (and_publisher) StdoutLine: {'line': b'[ 33%] Built target talker2\n'}
+[0.158520] (and_publisher) StdoutLine: {'line': b'[ 66%] Built target talker1\n'}
+[0.163027] (and_publisher) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_main.cpp.o\x1b[0m\n'}
+[0.199554] (-) TimerEvent: {}
+[0.300077] (-) TimerEvent: {}
+[0.400845] (-) TimerEvent: {}
+[0.501225] (-) TimerEvent: {}
+[0.601679] (-) TimerEvent: {}
+[0.702090] (-) TimerEvent: {}
+[0.802809] (-) TimerEvent: {}
+[0.903548] (-) TimerEvent: {}
+[1.003924] (-) TimerEvent: {}
+[1.104331] (-) TimerEvent: {}
+[1.188641] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.189834] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:38:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(std_msgs::msg::String_<std::allocator<void> >::_data_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.190097] (and_publisher) StderrLine: {'line': b'   38 |     std::string received = to_string(msg->data\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.190196] (and_publisher) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.190282] (and_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.190390] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.190483] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.190564] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.190640] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.190716] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.190792] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15\x1b[m\x1b[K:\n'}
+[1.190868] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.190949] (and_publisher) StderrLine: {'line': b' 6549 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[1.191024] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.191097] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6549:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.191222] (and_publisher) StderrLine: {'line': b' 6549 |   to_string(\x1b[01;36m\x1b[Kint __val\x1b[m\x1b[K)\n'}
+[1.191303] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.191378] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.191458] (and_publisher) StderrLine: {'line': b' 6554 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[1.191534] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.191609] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6554:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.191694] (and_publisher) StderrLine: {'line': b' 6554 |   to_string(\x1b[01;36m\x1b[Kunsigned __val\x1b[m\x1b[K)\n'}
+[1.191770] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.191846] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.191925] (and_publisher) StderrLine: {'line': b' 6560 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[1.192000] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.192082] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6560:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.192171] (and_publisher) StderrLine: {'line': b' 6560 |   to_string(\x1b[01;36m\x1b[Klong __val\x1b[m\x1b[K)\n'}
+[1.192247] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.192323] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.192399] (and_publisher) StderrLine: {'line': b' 6565 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[1.192474] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.192555] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6565:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.192636] (and_publisher) StderrLine: {'line': b' 6565 |   to_string(\x1b[01;36m\x1b[Kunsigned long __val\x1b[m\x1b[K)\n'}
+[1.192712] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.192789] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.192875] (and_publisher) StderrLine: {'line': b' 6571 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[1.192954] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.193031] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6571:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.193124] (and_publisher) StderrLine: {'line': b' 6571 |   to_string(\x1b[01;36m\x1b[Klong long __val\x1b[m\x1b[K)\n'}
+[1.193201] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.193276] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.193359] (and_publisher) StderrLine: {'line': b' 6577 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[1.193437] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.193512] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6577:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.193591] (and_publisher) StderrLine: {'line': b' 6577 |   to_string(\x1b[01;36m\x1b[Kunsigned long long __val\x1b[m\x1b[K)\n'}
+[1.193670] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.193748] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6583:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.193832] (and_publisher) StderrLine: {'line': b' 6583 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(float __val)\n'}
+[1.193909] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.193985] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6583:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.194065] (and_publisher) StderrLine: {'line': b' 6583 |   to_string(\x1b[01;36m\x1b[Kfloat __val\x1b[m\x1b[K)\n'}
+[1.194141] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.194217] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6592:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.194293] (and_publisher) StderrLine: {'line': b' 6592 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(double __val)\n'}
+[1.194369] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.194448] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6592:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.194528] (and_publisher) StderrLine: {'line': b' 6592 |   to_string(\x1b[01;36m\x1b[Kdouble __val\x1b[m\x1b[K)\n'}
+[1.194603] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.194682] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6601:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.194761] (and_publisher) StderrLine: {'line': b' 6601 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long double __val)\n'}
+[1.194837] (and_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.194917] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6601:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.194996] (and_publisher) StderrLine: {'line': b' 6601 |   to_string(\x1b[01;36m\x1b[Klong double __val\x1b[m\x1b[K)\n'}
+[1.195071] (and_publisher) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.195160] (and_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[1.195270] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[1.195348] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.195426] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.195510] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.195588] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:18\x1b[m\x1b[K:\n'}
+[1.195675] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:287:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.195756] (and_publisher) StderrLine: {'line': b'  287 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const rclcpp::Parameter & param);\n'}
+[1.195852] (and_publisher) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.195926] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:287:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Parameter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.196017] (and_publisher) StderrLine: {'line': b'  287 | to_string(\x1b[01;36m\x1b[Kconst rclcpp::Parameter & param\x1b[m\x1b[K);\n'}
+[1.196093] (and_publisher) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.196166] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:292:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.196245] (and_publisher) StderrLine: {'line': b'  292 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[1.196320] (and_publisher) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.196396] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:292:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<rclcpp::Parameter>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.196481] (and_publisher) StderrLine: {'line': b'  292 | to_string(\x1b[01;36m\x1b[Kconst std::vector<rclcpp::Parameter> & parameters\x1b[m\x1b[K);\n'}
+[1.196556] (and_publisher) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.196630] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:39:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.196708] (and_publisher) StderrLine: {'line': b"   39 |     if(received[10] == '1') {pub1 = \x1b[01;31m\x1b[Kreceived\x1b[m\x1b[K;}\n"}
+[1.196782] (and_publisher) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.196856] (and_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.196930] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.197005] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.197086] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.197160] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.197233] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.197305] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15\x1b[m\x1b[K:\n'}
+[1.197378] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:669:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.197462] (and_publisher) StderrLine: {'line': b'  669 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const basic_string& __str)\n'}
+[1.197536] (and_publisher) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.197610] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.197694] (and_publisher) StderrLine: {'line': b"   40 |     else if(received[10] == '2') {pub2 = \x1b[01;31m\x1b[Kreceived\x1b[m\x1b[K;}\n"}
+[1.197771] (and_publisher) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.197845] (and_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.197918] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.197991] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.198066] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.198142] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.198217] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.198290] (and_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:15\x1b[m\x1b[K:\n'}
+[1.198365] (and_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:669:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.198450] (and_publisher) StderrLine: {'line': b'  669 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const basic_string& __str)\n'}
+[1.198524] (and_publisher) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.204426] (-) TimerEvent: {}
+[1.304728] (-) TimerEvent: {}
+[1.405148] (-) TimerEvent: {}
+[1.505523] (-) TimerEvent: {}
+[1.605900] (-) TimerEvent: {}
+[1.706278] (-) TimerEvent: {}
+[1.806666] (-) TimerEvent: {}
+[1.907007] (-) TimerEvent: {}
+[2.007672] (-) TimerEvent: {}
+[2.108063] (-) TimerEvent: {}
+[2.208458] (-) TimerEvent: {}
+[2.308860] (-) TimerEvent: {}
+[2.409233] (-) TimerEvent: {}
+[2.458955] (and_publisher) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_main.cpp.o] Error 1\n'}
+[2.459334] (and_publisher) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2\n'}
+[2.459517] (and_publisher) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.461762] (and_publisher) CommandEnded: {'returncode': 2}
+[2.509355] (-) TimerEvent: {}
+[2.608209] (and_publisher) JobEnded: {'identifier': 'and_publisher', 'rc': 2}
+[2.609590] (-) TimerEvent: {}
+[2.609709] (-) EventReactorShutdown: {}

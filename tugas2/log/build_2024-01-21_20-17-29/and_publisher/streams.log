@@ -1,0 +1,14 @@
+[0.268s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[0.388s] [35m[1mScanning dependencies of target talker1[0m
+[0.429s] [ 33%] Built target listener
+[0.430s] [ 66%] Built target talker2
+[0.447s] [ 83%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m
+[1.662s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.662s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_[m[K’?
+[1.663s]    28 |     if(([01;31m[Kcout_[m[K*2)%4 == 0){message.data += "false";}
+[1.663s]       |         [01;31m[K^~~~~[m[K
+[1.663s]       |         [32m[Kcount_[m[K
+[2.850s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+[2.851s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[2.851s] make: *** [Makefile:141: all] Error 2
+[2.855s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16

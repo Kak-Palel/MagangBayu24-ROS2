@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001075] (and_publisher) JobQueued: {'identifier': 'and_publisher', 'dependencies': OrderedDict()}
+[0.001130] (and_publisher) JobStarted: {'identifier': 'and_publisher'}
+[0.099551] (-) TimerEvent: {}
+[0.114695] (and_publisher) JobProgress: {'identifier': 'and_publisher', 'progress': 'cmake'}
+[0.115169] (and_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher', '-DCMAKE_INSTALL_PREFIX=/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher'], 'cwd': '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olel'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/olel/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2507'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/olel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/149/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/olel/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/149/usr/share/code/code'), ('MANAGERPID', '2154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'olel'), ('JOURNAL_STREAM', '8:55349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'olel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/olel-ROG-Flow-X16-GV601RE-GV601RE:@/tmp/.ICE-unix/2597,unix/olel-ROG-Flow-X16-GV601RE-GV601RE:/tmp/.ICE-unix/2597'), ('GTK_EXE_PREFIX', '/snap/code/149/usr'), ('INVOCATION_ID', 'c7fb7a9047ac4c29863a2f4193ecd836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8b4040f_9c5b_4657_9c99_07c249b48ce3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/149/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ed57e23a5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1235'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/olel/snap/code/149/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/olel/snap/code/149/.local/share:/home/olel/snap/code/149:/snap/code/149/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.186399] (and_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199725] (-) TimerEvent: {}
+[0.300595] (-) TimerEvent: {}
+[0.361221] (and_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.365813] (and_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400850] (-) TimerEvent: {}
+[0.501691] (-) TimerEvent: {}
+[0.508084] (and_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.510117] (and_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.590240] (and_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.601802] (and_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.601976] (-) TimerEvent: {}
+[0.602173] (and_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.603619] (and_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.688128] (and_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.689753] (and_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.702126] (-) TimerEvent: {}
+[0.786111] (and_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.797119] (and_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.797668] (and_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.799632] (and_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.802218] (-) TimerEvent: {}
+[0.827900] (and_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.828406] (and_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902386] (-) TimerEvent: {}
+[1.002941] (and_publisher) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.003289] (-) TimerEvent: {}
+[1.032356] (and_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.037097] (and_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.090260] (and_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.103418] (-) TimerEvent: {}
+[1.109738] (and_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.167832] (and_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.203542] (-) TimerEvent: {}
+[1.207547] (and_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.208417] (and_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.209046] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.293584] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.293981] (and_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.303676] (-) TimerEvent: {}
+[1.374735] (and_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.375216] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.403871] (-) TimerEvent: {}
+[1.454137] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.454545] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.504101] (-) TimerEvent: {}
+[1.547729] (and_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.548812] (and_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.604368] (-) TimerEvent: {}
+[1.666810] (and_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.704444] (-) TimerEvent: {}
+[1.738370] (and_publisher) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.738988] (and_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.739238] (and_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.739375] (and_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.739655] (and_publisher) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.739808] (and_publisher) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.740088] (and_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.740669] (and_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.740821] (and_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.741022] (and_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.743037] (and_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.751188] (and_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.752204] (and_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher\n'}
+[1.758484] (and_publisher) CommandEnded: {'returncode': 0}
+[1.759454] (and_publisher) JobProgress: {'identifier': 'and_publisher', 'progress': 'build'}
+[1.763226] (and_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', '--', '-j16', '-l16'], 'cwd': '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olel'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/olel/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2507'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/olel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/149/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/olel/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/149/usr/share/code/code'), ('MANAGERPID', '2154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'olel'), ('JOURNAL_STREAM', '8:55349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'olel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/olel-ROG-Flow-X16-GV601RE-GV601RE:@/tmp/.ICE-unix/2597,unix/olel-ROG-Flow-X16-GV601RE-GV601RE:/tmp/.ICE-unix/2597'), ('GTK_EXE_PREFIX', '/snap/code/149/usr'), ('INVOCATION_ID', 'c7fb7a9047ac4c29863a2f4193ecd836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8b4040f_9c5b_4657_9c99_07c249b48ce3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/149/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ed57e23a5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1235'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/olel/snap/code/149/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/olel/snap/code/149/.local/share:/home/olel/snap/code/149:/snap/code/149/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.800911] (and_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker2\x1b[0m\n'}
+[1.803367] (and_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker1\x1b[0m\n'}
+[1.803536] (and_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.804535] (-) TimerEvent: {}
+[1.833278] (and_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o\x1b[0m\n'}
+[1.833782] (and_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher2.cpp.o\x1b[0m\n'}
+[1.834978] (and_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_main.cpp.o\x1b[0m\n'}
+[1.904678] (-) TimerEvent: {}
+[2.005042] (-) TimerEvent: {}
+[2.105428] (-) TimerEvent: {}
+[2.205796] (-) TimerEvent: {}
+[2.306352] (-) TimerEvent: {}
+[2.406727] (-) TimerEvent: {}
+[2.507119] (-) TimerEvent: {}
+[2.607502] (-) TimerEvent: {}
+[2.707832] (-) TimerEvent: {}
+[2.808150] (-) TimerEvent: {}
+[2.908513] (-) TimerEvent: {}
+[3.008978] (-) TimerEvent: {}
+[3.109626] (-) TimerEvent: {}
+[3.210411] (-) TimerEvent: {}
+[3.311390] (-) TimerEvent: {}
+[3.412086] (-) TimerEvent: {}
+[3.512642] (-) TimerEvent: {}
+[3.613480] (-) TimerEvent: {}
+[3.713962] (-) TimerEvent: {}
+[3.814951] (-) TimerEvent: {}
+[3.915613] (-) TimerEvent: {}
+[4.016133] (-) TimerEvent: {}
+[4.116872] (-) TimerEvent: {}
+[4.217509] (-) TimerEvent: {}
+[4.318162] (-) TimerEvent: {}
+[4.418842] (-) TimerEvent: {}
+[4.519452] (-) TimerEvent: {}
+[4.620554] (-) TimerEvent: {}
+[4.721263] (-) TimerEvent: {}
+[4.821843] (-) TimerEvent: {}
+[4.922243] (-) TimerEvent: {}
+[4.988529] (and_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable talker1\x1b[0m\n'}
+[5.022392] (-) TimerEvent: {}
+[5.034354] (and_publisher) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker2\x1b[0m\n'}
+[5.122521] (-) TimerEvent: {}
+[5.142145] (and_publisher) StdoutLine: {'line': b'[ 83%] Built target talker1\n'}
+[5.186685] (and_publisher) StdoutLine: {'line': b'[ 83%] Built target talker2\n'}
+[5.222663] (-) TimerEvent: {}
+[5.323039] (-) TimerEvent: {}
+[5.423551] (-) TimerEvent: {}
+[5.524123] (-) TimerEvent: {}
+[5.624888] (-) TimerEvent: {}
+[5.725330] (-) TimerEvent: {}
+[5.825991] (-) TimerEvent: {}
+[5.926840] (-) TimerEvent: {}
+[6.027626] (-) TimerEvent: {}
+[6.128515] (-) TimerEvent: {}
+[6.229028] (-) TimerEvent: {}
+[6.329822] (-) TimerEvent: {}
+[6.430208] (-) TimerEvent: {}
+[6.530577] (-) TimerEvent: {}
+[6.582014] (and_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.630729] (-) TimerEvent: {}
+[6.731365] (-) TimerEvent: {}
+[6.796788] (and_publisher) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.810908] (and_publisher) CommandEnded: {'returncode': 0}
+[6.831497] (-) TimerEvent: {}
+[6.843210] (and_publisher) JobProgress: {'identifier': 'and_publisher', 'progress': 'install'}
+[6.861356] (and_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher'], 'cwd': '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'olel'), ('LC_TIME', 'id_ID.UTF-8'), ('GIO_MODULE_DIR', '/home/olel/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2507'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/olel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/src'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/149/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/olel/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/149/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/149/usr/share/code/code'), ('MANAGERPID', '2154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'olel'), ('JOURNAL_STREAM', '8:55349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'olel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/olel-ROG-Flow-X16-GV601RE-GV601RE:@/tmp/.ICE-unix/2597,unix/olel-ROG-Flow-X16-GV601RE-GV601RE:/tmp/.ICE-unix/2597'), ('GTK_EXE_PREFIX', '/snap/code/149/usr'), ('INVOCATION_ID', 'c7fb7a9047ac4c29863a2f4193ecd836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8b4040f_9c5b_4657_9c99_07c249b48ce3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/149/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ed57e23a5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.1235'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/olel/snap/code/149/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/olel/snap/code/149/.local/share:/home/olel/snap/code/149:/snap/code/149/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.868510] (and_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.868910] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker1\n'}
+[6.869296] (and_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker1" to ""\n'}
+[6.869482] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2\n'}
+[6.870021] (and_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2" to ""\n'}
+[6.870188] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/listener\n'}
+[6.871368] (and_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/listener" to ""\n'}
+[6.871559] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/package_run_dependencies/and_publisher\n'}
+[6.871690] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/parent_prefix_path/and_publisher\n'}
+[6.871845] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.sh\n'}
+[6.872005] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.dsv\n'}
+[6.872122] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.sh\n'}
+[6.872226] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.dsv\n'}
+[6.872306] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.bash\n'}
+[6.872388] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.sh\n'}
+[6.872492] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.zsh\n'}
+[6.872592] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.dsv\n'}
+[6.872670] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.dsv\n'}
+[6.872779] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/packages/and_publisher\n'}
+[6.872873] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig.cmake\n'}
+[6.872960] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig-version.cmake\n'}
+[6.873035] (and_publisher) StdoutLine: {'line': b'-- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.xml\n'}
+[6.874508] (and_publisher) CommandEnded: {'returncode': 0}
+[6.931602] (-) TimerEvent: {}
+[7.034520] (-) TimerEvent: {}
+[7.110703] (and_publisher) JobEnded: {'identifier': 'and_publisher', 'rc': 0}
+[7.111375] (-) EventReactorShutdown: {}

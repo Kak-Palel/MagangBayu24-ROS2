@@ -1,0 +1,16 @@
+[0.096s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[0.144s] [35m[1mScanning dependencies of target talker1[0m
+[0.165s] [ 50%] Built target listener
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m
+[0.167s] [ 83%] Built target talker2
+[1.146s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.146s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:39:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.146s]    39 |   long double bruh = [01;31m[Kthis[m[K->now().nanoseconds();
+[1.146s]       |                      [01;31m[K^~~~[m[K
+[1.149s] [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/publisher1.cpp:39:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbruh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.149s]    39 |   long double [01;35m[Kbruh[m[K = this->now().nanoseconds();
+[1.149s]       |               [01;35m[K^~~~[m[K
+[1.890s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher1.cpp.o] Error 1
+[1.890s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[1.891s] make: *** [Makefile:141: all] Error 2
+[1.894s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16

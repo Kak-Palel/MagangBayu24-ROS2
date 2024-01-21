@@ -1,0 +1,44 @@
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:39:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst string*[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kchar*[m[K’
+   39 |     if(received[10] == '1') {strcpy([01;31m[K&pub1[m[K, &received);}
+      |                                     [01;31m[K^~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kconst string* {aka const std::__cxx11::basic_string<char>*}[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcutils/logging.h:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/types.h:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/arguments.h:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/context.h:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/guard_condition.h:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:18[m[K:
+[01m[K/usr/include/string.h:122:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kchar* strcpy(char*, const char*)[m[K’
+  122 | extern char *strcpy ([01;36m[Kchar *__restrict __dest[m[K, const char *__restrict __src)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:40:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst string*[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>*[m[K’} to ‘[01m[Kchar*[m[K’
+   40 |     if(received[10] == '2') {strcpy([01;31m[K&pub2[m[K, &received);}
+      |                                     [01;31m[K^~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kconst string* {aka const std::__cxx11::basic_string<char>*}[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcutils/logging.h:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/types.h:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/arguments.h:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/context.h:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/guard_condition.h:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher/src/subscriber_main.cpp:18[m[K:
+[01m[K/usr/include/string.h:122:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kchar* strcpy(char*, const char*)[m[K’
+  122 | extern char *strcpy ([01;36m[Kchar *__restrict __dest[m[K, const char *__restrict __src)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

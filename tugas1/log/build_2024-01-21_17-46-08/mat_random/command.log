@@ -1,0 +1,4 @@
+Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random': /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random -- -j16 -l16
+Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random' returned '0': /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random -- -j16 -l16
+Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random': /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random
+Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random' returned '0': /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas1/build/mat_random

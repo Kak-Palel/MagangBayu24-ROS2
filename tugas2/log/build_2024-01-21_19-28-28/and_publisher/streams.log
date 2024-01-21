@@ -1,0 +1,88 @@
+[0.118s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher -DCMAKE_INSTALL_PREFIX=/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher
+[0.186s] -- The C compiler identification is GNU 9.4.0
+[0.361s] -- The CXX compiler identification is GNU 9.4.0
+[0.365s] -- Check for working C compiler: /usr/bin/cc
+[0.507s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.509s] -- Detecting C compiler ABI info
+[0.589s] -- Detecting C compiler ABI info - done
+[0.601s] -- Detecting C compile features
+[0.601s] -- Detecting C compile features - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.689s] -- Detecting CXX compiler ABI info
+[0.785s] -- Detecting CXX compiler ABI info - done
+[0.796s] -- Detecting CXX compile features
+[0.797s] -- Detecting CXX compile features - done
+[0.799s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.827s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.002s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.031s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.036s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.089s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.109s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.207s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.207s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.208s] -- Looking for pthread.h
+[1.293s] -- Looking for pthread.h - found
+[1.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.374s] -- Looking for pthread_create in pthreads
+[1.453s] -- Looking for pthread_create in pthreads - not found
+[1.454s] -- Looking for pthread_create in pthread
+[1.547s] -- Looking for pthread_create in pthread - found
+[1.548s] -- Found Threads: TRUE  
+[1.666s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.737s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.738s] -- Configured cppcheck include dirs: 
+[1.738s] -- Configured cppcheck exclude dirs and/or files: 
+[1.739s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.739s] -- Configured cpplint exclude dirs and/or files: 
+[1.739s] -- Added test 'lint_cmake' to check CMake code style
+[1.740s] -- Added test 'uncrustify' to check C / C++ code style
+[1.740s] -- Configured uncrustify additional arguments: 
+[1.740s] -- Added test 'xmllint' to check XML markup files
+[1.742s] -- Configuring done
+[1.750s] -- Generating done
+[1.751s] -- Build files have been written to: /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher
+[1.758s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/olel/Projects/MagangBayu24-ROS2/tugas2/src/and_publisher -DCMAKE_INSTALL_PREFIX=/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher
+[1.763s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[1.800s] [35m[1mScanning dependencies of target talker2[0m
+[1.802s] [35m[1mScanning dependencies of target talker1[0m
+[1.802s] [35m[1mScanning dependencies of target listener[0m
+[1.832s] [ 33%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher1.cpp.o[0m
+[1.833s] [ 33%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher2.cpp.o[0m
+[1.834s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_main.cpp.o[0m
+[4.988s] [ 66%] [32m[1mLinking CXX executable talker1[0m
+[5.033s] [ 83%] [32m[1mLinking CXX executable talker2[0m
+[5.141s] [ 83%] Built target talker1
+[5.186s] [ 83%] Built target talker2
+[6.581s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.796s] [100%] Built target listener
+[6.810s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher -- -j16 -l16
+[6.861s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher
+[6.868s] -- Install configuration: ""
+[6.868s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker1
+[6.868s] -- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker1" to ""
+[6.868s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2
+[6.869s] -- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/talker2" to ""
+[6.869s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/listener
+[6.870s] -- Set runtime path of "/home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/lib/and_publisher/listener" to ""
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/package_run_dependencies/and_publisher
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/parent_prefix_path/and_publisher
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.sh
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/ament_prefix_path.dsv
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.sh
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/environment/path.dsv
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.bash
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.sh
+[6.871s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.zsh
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/local_setup.dsv
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.dsv
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/ament_index/resource_index/packages/and_publisher
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig.cmake
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/cmake/and_publisherConfig-version.cmake
+[6.872s] -- Installing: /home/olel/Projects/MagangBayu24-ROS2/tugas2/install/and_publisher/share/and_publisher/package.xml
+[6.874s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/olel/Projects/MagangBayu24-ROS2/tugas2/build/and_publisher

@@ -1,0 +1,17 @@
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/lib/mat_random/pembuatSoal
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/lib/mat_random/pengerjaSoal
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/ament_index/resource_index/package_run_dependencies/mat_random
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/ament_index/resource_index/parent_prefix_path/mat_random
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/environment/ament_prefix_path.sh
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/environment/ament_prefix_path.dsv
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/environment/path.sh
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/environment/path.dsv
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/local_setup.bash
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/local_setup.sh
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/local_setup.zsh
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/local_setup.dsv
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/package.dsv
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/ament_index/resource_index/packages/mat_random
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/cmake/mat_randomConfig.cmake
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/cmake/mat_randomConfig-version.cmake
+/home/olel/Projects/MagangBayu24-ROS2/tugas1/install/mat_random/share/mat_random/package.xml
