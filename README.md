@@ -2,8 +2,8 @@
 # Magang Bayucaraka 2024 - ROS2
 
 **Identitas Peserta**\
-Nama    : \
-NRP     : 
+Nama    : Farrel Ganendra\
+NRP     : 5024231036
 
 Pengumpulan tugas dilakukan dengan cara seperti berikut:
 

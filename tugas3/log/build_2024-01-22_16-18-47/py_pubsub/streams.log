@@ -1,0 +1,38 @@
+[0.593s] Invoking command in '/home/olel/Projects/MagangBayu24-ROS2/tugas3/src/py_pubsub': PYTHONPATH=/home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/prefix_override:/home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build install --record /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
+[0.736s] running egg_info
+[0.736s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.737s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.737s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.738s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.762s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.763s] running build
+[0.763s] running build_py
+[0.763s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build
+[0.763s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib
+[0.763s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib/py_pubsub
+[0.763s] copying py_pubsub/__init__.py -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib/py_pubsub
+[0.763s] copying py_pubsub/publisher_member_function.py -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib/py_pubsub
+[0.763s] running install
+[0.763s] running install_lib
+[0.764s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.764s] copying /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.764s] copying /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.765s] byte-compiling /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[0.765s] byte-compiling /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.766s] running install_data
+[0.766s] Sorry: IndentationError: unexpected indent (publisher_member_function.py, line 2)
+[0.766s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/share/ament_index
+[0.766s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/share/ament_index/resource_index
+[0.766s] creating /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/share/ament_index/resource_index/packages
+[0.766s] copying resource/py_pubsub -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/share/ament_index/resource_index/packages
+[0.766s] copying package.xml -> /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/share/py_pubsub
+[0.766s] running install_egg_info
+[0.767s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[0.768s] running install_scripts
+[0.779s] Installing talker script to /home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/py_pubsub
+[0.780s] writing list of installed files to '/home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/install.log'
+[0.794s] Invoked command in '/home/olel/Projects/MagangBayu24-ROS2/tugas3/src/py_pubsub' returned '0': PYTHONPATH=/home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/prefix_override:/home/olel/Projects/MagangBayu24-ROS2/tugas3/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/build install --record /home/olel/Projects/MagangBayu24-ROS2/tugas3/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
